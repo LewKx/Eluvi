@@ -56,7 +56,17 @@ args = ap.parse_args(argv)
 os.makedirs(args.out, exist_ok=True)
 random.seed(SEED)
 
-bpy.ops.wm.read_factory_settings(use_empty=True)
+if bpy.app.background:
+    # Kommandozeile: frische, leere Datei (ändert keine gespeicherten Einstellungen)
+    bpy.ops.wm.read_homefile(use_empty=True)
+else:
+    # In der Blender-Oberfläche: nur die aktuelle Szene leeren – Einstellungen & Bonsai bleiben unberührt
+    if bpy.context.object and bpy.context.object.mode != "OBJECT":
+        bpy.ops.object.mode_set(mode="OBJECT")
+    for coll in (bpy.data.objects, bpy.data.meshes, bpy.data.materials, bpy.data.lights,
+                 bpy.data.cameras, bpy.data.worlds, bpy.data.textures):
+        for block in list(coll):
+            coll.remove(block)
 scene = bpy.context.scene
 
 # ---------------------------------------------------------------------------
