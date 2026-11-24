@@ -387,9 +387,19 @@ if hdri_path and os.path.exists(hdri_path):
     wl.new(env.outputs[0], wn["Background"].inputs[0])
     wn["Background"].inputs["Strength"].default_value = 1.0
 else:
-    sky = wn.new("ShaderNodeTexSky"); sky.sky_type = "NISHITA"
-    sky.sun_elevation = math.radians(SUN_ELEV); sky.sun_rotation = math.radians(250)
-    sky.air_density = 1.5; sky.dust_density = 3.0
+    sky = wn.new("ShaderNodeTexSky")
+    for sky_type in ("MULTIPLE_SCATTERING", "NISHITA", "SINGLE_SCATTERING", "HOSEK_WILKIE"):
+        try:   # Blender 5.x hat die Himmel-Typen umbenannt
+            sky.sky_type = sky_type; break
+        except TypeError:
+            continue
+    for attr, val in (("sun_elevation", math.radians(SUN_ELEV)), ("sun_rotation", math.radians(250)),
+                      ("air_density", 1.5), ("dust_density", 3.0), ("aerosol_density", 3.0)):
+        if hasattr(sky, attr):
+            try:
+                setattr(sky, attr, val)
+            except Exception:
+                pass
     wl.new(sky.outputs[0], wn["Background"].inputs[0])
     wn["Background"].inputs["Strength"].default_value = 0.25
 
@@ -438,7 +448,11 @@ except Exception:
     scene.cycles.use_denoising = False
 try:
     scene.view_settings.view_transform = "AgX"
-    scene.view_settings.look = "AgX - Medium High Contrast"
+    for look in ("AgX - Medium High Contrast", "Medium High Contrast"):
+        try:
+            scene.view_settings.look = look; break
+        except TypeError:
+            continue
 except Exception:
     pass
 
