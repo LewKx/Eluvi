@@ -11,7 +11,7 @@ import sys, os, subprocess, json, cv2
 
 src, title, sub = sys.argv[1], sys.argv[2], sys.argv[3]
 here = os.path.dirname(os.path.abspath(__file__))
-wm = os.path.abspath(os.path.join(here, "..", "peakbuilds-logo", "final", "wasserzeichen-leiste.png"))
+wm = os.path.abspath(os.path.join(here, "..", "peakbuilds-logo", "final", "wasserzeichen-leiste-3d.png"))
 out = os.path.join(src, "slides")
 os.makedirs(out, exist_ok=True)
 
@@ -28,7 +28,7 @@ body{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:In
 .bar img{width:1080px;height:90px;display:block}
 .title{position:absolute;left:0;right:0;top:0;padding:64px 70px 120px;
  background:linear-gradient(rgba(20,20,20,.55),rgba(20,20,20,0));color:#F4EFE6}
-.k{font-size:22px;letter-spacing:7px;text-transform:uppercase;opacity:.85}
+.k{font-size:20px;letter-spacing:4px;text-transform:uppercase;opacity:.85}
 h1{font-family:Caladea;font-weight:400;font-size:84px;line-height:1;margin:14px 0 12px}
 .s{font-size:28px;font-weight:300;letter-spacing:1px}
 .tag{position:absolute;right:40px;top:40px;background:rgba(244,239,230,.9);color:#1E1E1E;
