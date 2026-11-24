@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+<rect width="1200" height="1200" fill="#F4EFE6"/>
+<text x="60" y="80" font-family="Inter, sans-serif" font-size="22" letter-spacing="2" fill="#1E1E1E" fill-opacity="0.55">C1 · SERIF KRÄFTIG</text>
+<g transform="translate(300 330)"><g>
+    <rect x="-130" y="-150" width="260" height="260" rx="30" fill="#1E1E1E"/>
+    <path transform="translate(0 -16)" d="M-80 -40 L0 -110 L80 -40" fill="none" stroke="#F4EFE6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path transform="translate(0 -16)" d="M62 -86 C 62 -104, 78 -112, 86 -112 C 86 -94, 76 -86, 62 -86 Z" fill="#F4EFE6"/>
+    <text x="0" y="66" text-anchor="middle" font-family="Caladea, serif" font-weight="700" font-style="normal" font-size="132" letter-spacing="-8" fill="#F4EFE6">pB</text>
+  </g>
+<text x="0" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="500" letter-spacing="10" fill="#1E1E1E">PEAKBUILDS</text></g>
+<text x="660" y="80" font-family="Inter, sans-serif" font-size="22" letter-spacing="2" fill="#1E1E1E" fill-opacity="0.55">C2 · SERIF KURSIV</text>
+<g transform="translate(900 330)"><g>
+    <rect x="-130" y="-150" width="260" height="260" rx="30" fill="#1E1E1E"/>
+    <path transform="translate(0 -16)" d="M-80 -40 L0 -110 L80 -40" fill="none" stroke="#F4EFE6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path transform="translate(0 -16)" d="M62 -86 C 62 -104, 78 -112, 86 -112 C 86 -94, 76 -86, 62 -86 Z" fill="#F4EFE6"/>
+    <text x="0" y="66" text-anchor="middle" font-family="Caladea, serif" font-weight="700" font-style="italic" font-size="132" letter-spacing="-10" fill="#F4EFE6">pB</text>
+  </g>
+<text x="0" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="500" letter-spacing="10" fill="#1E1E1E">PEAKBUILDS</text></g>
+<text x="60" y="680" font-family="Inter, sans-serif" font-size="22" letter-spacing="2" fill="#1E1E1E" fill-opacity="0.55">C3 · MODERN</text>
+<g transform="translate(300 930)"><g>
+    <rect x="-130" y="-150" width="260" height="260" rx="30" fill="#1E1E1E"/>
+    <path transform="translate(0 -16)" d="M-80 -40 L0 -110 L80 -40" fill="none" stroke="#F4EFE6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path transform="translate(0 -16)" d="M62 -86 C 62 -104, 78 -112, 86 -112 C 86 -94, 76 -86, 62 -86 Z" fill="#F4EFE6"/>
+    <text x="0" y="66" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-style="normal" font-size="126" letter-spacing="-10" fill="#F4EFE6">pB</text>
+  </g>
+<text x="0" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="500" letter-spacing="10" fill="#1E1E1E">PEAKBUILDS</text></g>
+<text x="660" y="680" font-family="Inter, sans-serif" font-size="22" letter-spacing="2" fill="#1E1E1E" fill-opacity="0.55">C4 · MODERN FEIN</text>
+<g transform="translate(900 930)"><g>
+    <rect x="-130" y="-150" width="260" height="260" rx="30" fill="#1E1E1E"/>
+    <path transform="translate(0 -16)" d="M-80 -40 L0 -110 L80 -40" fill="none" stroke="#F4EFE6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path transform="translate(0 -16)" d="M62 -86 C 62 -104, 78 -112, 86 -112 C 86 -94, 76 -86, 62 -86 Z" fill="#F4EFE6"/>
+    <text x="0" y="66" text-anchor="middle" font-family="Inter, sans-serif" font-weight="300" font-style="normal" font-size="126" letter-spacing="-8" fill="#F4EFE6">pB</text>
+  </g>
+<text x="0" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="500" letter-spacing="10" fill="#1E1E1E">PEAKBUILDS</text></g>
+<line x1="600" y1="40" x2="600" y2="1160" stroke="#1E1E1E" stroke-opacity="0.15" stroke-width="2"/><line x1="40" y1="600" x2="1160" y2="600" stroke="#1E1E1E" stroke-opacity="0.15" stroke-width="2"/>
+</svg>
