@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -170 300 300" width="800" height="800">
+  
+  <path transform="translate(0 -16)" d="M-80 -40 L0 -110 L80 -40" fill="none" stroke="#1E1E1E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path transform="translate(0 -16)" d="M62 -86 C 62 -104, 78 -112, 86 -112 C 86 -94, 76 -86, 62 -86 Z" fill="#1E1E1E"/>
+  <text x="0" y="66" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-weight="300" font-size="126" letter-spacing="-8" fill="#1E1E1E">pB</text>
+</svg>
