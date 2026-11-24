@@ -72,5 +72,5 @@
     <text x="400" y="590" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-size="84" fill="#1E1E1E" letter-spacing="3">peakBuilds</text>
   </g>
   <path d="M250 618 Q400 610 552 620" fill="none" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" filter="url(#rough)"/>
-  <text x="400" y="668" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="24" font-weight="300" fill="#1E1E1E" letter-spacing="9">NACHHALTIG · WOHNEN · BAUEN</text>
+  <text x="400" y="668" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="24" font-weight="300" fill="#1E1E1E" letter-spacing="7">SUSTAINABLE · LIVING · BUILDING</text>
 </svg>
