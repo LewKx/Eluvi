@@ -5,23 +5,35 @@
 **Username:** `@thepeakbuilds`
 
 **Name field (searchable!):**
-`peakBuilds | Sustainable Living`
+`peakBuilds | Homes & Architecture`
 
-**Bio (max. 150 characters):**
+**Bio (max. 150 characters) – broader positioning:**
 ```
-🏔️ Sustainable homes & real estate, made simple
-🌿 Tips · Design · Smart living
-🎓 Studying sustainable real estate in 🇦🇹
+🏡 Beautiful homes & the future of building
+🧱 Architecture · Innovation · Sustainability
+🎓 Real estate student in 🇦🇹
+⬇️ Free home checklist
+```
+
+Alternative:
+```
+Homes, architecture & building innovation 🏔️
+Explained simply – from the Alps 🇦🇹
+🌿 Smart & sustainable living
 ⬇️ Free checklist
 ```
 
-Alternative (more minimal):
-```
-Sustainable living & building 🌿
-Real estate, explained simply 🏡
-From the Alps 🏔️ 🇦🇹
-⬇️ Free home checklist
-```
+**Content pillars (mix):**
+| Share | Pillar | Goal |
+|---|---|---|
+| ~40 % | Home & architecture inspiration (photos, “Home of the week”) | Reach & new followers |
+| ~25 % | Building innovation (low-carbon concrete, 3D-printed houses, new brick systems, timber high-rises) | Shares & “wow” |
+| ~20 % | Explainers & tips (energy, renting, buying, renovating) | Saves & trust |
+| ~15 % | Sustainable living | Your unique angle |
+
+**Image rights:** only post photos you own, royalty-free photos (Unsplash, Pexels) or
+photos from architects/creators **with permission + credit** (ask via DM; credit in slide & caption).
+AI renderings → label as “AI-generated”.
 
 **Profile picture:** `peakbuilds-logo/final/monogramm-instagram-rund.png`
 
