@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F4EFE6"/>
+  <g transform="translate(400 330)">
+    <!-- Berg hinten -->
+    <path d="M-230 120 L-80 -90 L-20 -10 L60 -150 L230 120 Z" fill="#2F5D50"/>
+    <!-- Schneekappe -->
+    <path d="M60 -150 L95 -94 L72 -104 L52 -86 L32 -102 Z" fill="#DCE8E1"/>
+    <!-- Haus vorne -->
+    <path d="M-95 120 L-95 20 L-15 -50 L65 20 L65 120 Z" fill="#B9855A"/>
+    <path d="M-115 30 L-15 -62 L85 30" fill="none" stroke="#1F3D35" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Tür -->
+    <rect x="-35" y="60" width="40" height="60" rx="4" fill="#1F3D35"/>
+    <!-- Blatt (Nachhaltigkeit) -->
+    <path d="M20 40 C 20 10, 50 0, 55 0 C 55 30, 40 45, 20 40 Z" fill="#7FB069"/>
+    <!-- Boden -->
+    <rect x="-240" y="118" width="480" height="10" rx="5" fill="#1F3D35"/>
+  </g>
+  <text x="400" y="590" text-anchor="middle" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="92" font-weight="800" fill="#1F3D35" letter-spacing="2">peak<tspan fill="#B9855A">Builds</tspan></text>
+  <text x="400" y="650" text-anchor="middle" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#2F5D50" letter-spacing="8">NACHHALTIG · WOHNEN · BAUEN</text>
+</svg>
