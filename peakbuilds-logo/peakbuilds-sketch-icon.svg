@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="rough2" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="21" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="4" xChannelSelector="G" yChannelSelector="R"/>
+    </filter>
+  </defs>
+  <circle cx="400" cy="400" r="400" fill="#F4EFE6"/>
+  <g fill="none" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(400 420) scale(1.25)">
+    <!-- Berge -->
+    <g filter="url(#rough)" stroke-width="4.5">
+      <path d="M-238 128 L-82 -96"/>
+      <path d="M-90 -86 L-34 -12"/>
+      <path d="M-30 -2 L58 -158"/>
+      <path d="M50 -150 L240 126"/>
+      <path d="M28 -100 Q40 -88 50 -96 T72 -92 T96 -100"/>
+    </g>
+    <g filter="url(#rough2)" stroke-width="2" opacity="0.75">
+      <path d="M-232 122 L-80 -90"/>
+      <path d="M-24 -6 L62 -150"/>
+      <path d="M56 -146 L234 122"/>
+    </g>
+    <g filter="url(#rough2)" stroke-width="1.8" opacity="0.8">
+      <path d="M110 -40 L92 -12"/>
+      <path d="M130 -12 L108 22"/>
+      <path d="M150 18 L124 58"/>
+      <path d="M172 48 L144 92"/>
+      <path d="M194 80 L170 118"/>
+      <path d="M-120 -10 L-104 6"/>
+      <path d="M-146 26 L-126 44"/>
+      <path d="M-172 62 L-148 84"/>
+    </g>
+    <!-- Haus verdeckt die Berglinien dahinter -->
+    <path d="M-104 128 L-104 24 L-15 -58 L74 24 L74 128 Z" fill="#F4EFE6" stroke="none"/>
+    <!-- Haus -->
+    <g filter="url(#rough)" stroke-width="4.5">
+      <path d="M-128 38 L-14 -66"/>
+      <path d="M-22 -64 L98 40"/>
+      <path d="M-96 14 L-94 126"/>
+      <path d="M66 12 L64 126"/>
+      <path d="M-36 126 L-36 64 Q-16 54 4 64 L4 126"/>
+      <path d="M-258 128 L-110 126"/>
+      <path d="M-84 127 L150 128"/>
+      <path d="M170 127 L252 128"/>
+      <!-- Blatt -->
+      <path d="M18 44 C 16 14, 40 0, 52 -2 C 54 24, 40 42, 16 42"/>
+    </g>
+    <g filter="url(#rough2)" stroke-width="2" opacity="0.75">
+      <path d="M-122 40 L-12 -60 L94 34"/>
+      <path d="M-92 20 L-92 120"/>
+      <path d="M62 18 L62 122"/>
+      <path d="M-250 132 L-60 131"/>
+      <path d="M20 40 L48 4"/>
+      <path d="M28 30 L38 30 M33 22 L43 20"/>
+    </g>
+    <g filter="url(#rough2)" stroke-width="1.8" opacity="0.8">
+      <path d="M-84 34 L-48 34"/>
+      <path d="M-84 52 L-50 52"/>
+      <path d="M14 70 L54 70"/>
+      <path d="M14 90 L56 90"/>
+      <path d="M-84 100 L-46 100"/>
+      <path d="M-200 128 l-4 -12 M-194 128 l2 -10"/>
+      <path d="M120 128 l-3 -11 M126 128 l3 -9"/>
+      <path d="M210 128 l-2 -10"/>
+    </g>
+  </g>
+</svg>
