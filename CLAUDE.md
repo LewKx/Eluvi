@@ -16,6 +16,8 @@ Faceless Instagram-/Etsy-Marke rund um kleine Häuser. Kommunikation mit dem Use
   - `render_house.py` lädt die IFC in Blender, vergibt Materialien, Wald/Licht, rendert `exterior/interior/gallery`
     (`blender -b -P render_house.py -- --samples 256 --view all`; im UI über Scripting-Tab)
   - Eigene Property Set `PB_Bauteil` (Hersteller, Produkt, Preis_EUR, Lieferzeit_Wochen, Notiz, Status) zum Ausfüllen
+- `peakbuilds-wohnung/` – Wohnküche 21 m² (4,00 × 5,25 m): `wohnkueche-21.ifc` (Möbel = je 1 IfcFurniture mit Pset `PB_Moebel`),
+  `grundriss.py` (bemaßter Grundriss), `render_room.py` (Ansichten Wohnen/Küche/Draufsicht), `make_apartment.py`
 - `peakbuilds-3d/` – älterer, einfacher Blender-Prototyp (Satteldach „Forest Loft“)
 - `peakbuilds-content/` – Instagram-Texte, Bio, Prompts für KI-Bilder, Nischenplan
 
