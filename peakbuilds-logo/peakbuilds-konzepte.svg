@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <rect width="1200" height="1200" fill="#F4EFE6"/>
+  <line x1="600" y1="40" x2="600" y2="1160" stroke="#1E1E1E" stroke-opacity="0.15" stroke-width="2"/>
+  <line x1="40" y1="600" x2="1160" y2="600" stroke="#1E1E1E" stroke-opacity="0.15" stroke-width="2"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#1E1E1E" fill-opacity="0.55" letter-spacing="2">
+    <text x="60" y="80">A · MONOLINE (klar &amp; professionell)</text>
+    <text x="660" y="80">B · EMBLEM / BADGE</text>
+    <text x="60" y="680">C · MONOGRAMM „PB“</text>
+    <text x="660" y="680">D · BLAUPAUSE (Architektur)</text>
+  </g>
+
+  <!-- A: Monoline, gleiche Idee wie Skizze, aber exakt -->
+  <g transform="translate(300 300)" fill="none" stroke="#1E1E1E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-170 90 L-60 -70 L-20 -14"/>
+    <path d="M10 -40 L60 -120 L170 90"/>
+    <path d="M-80 90 L-80 10 L-10 -52 L60 10 L60 90"/>
+    <path d="M-30 90 L-30 46 L10 46 L10 90"/>
+    <path d="M30 22 C 30 0, 48 -10, 56 -10 C 56 10, 46 22, 30 22 Z" stroke-width="5"/>
+    <path d="M-190 90 L190 90"/>
+    <text x="0" y="175" text-anchor="middle" stroke="none" fill="#1E1E1E" font-family="Inter, sans-serif" font-size="46" font-weight="600" letter-spacing="4">PEAKBUILDS</text>
+  </g>
+
+  <!-- B: Emblem -->
+  <g transform="translate(900 320)">
+    <circle r="190" fill="none" stroke="#1E1E1E" stroke-width="5"/>
+    <circle r="172" fill="none" stroke="#1E1E1E" stroke-width="2"/>
+    <defs><path id="arcT" d="M-140 0 A140 140 0 0 1 140 0"/><path id="arcB" d="M-150 0 A150 150 0 0 0 150 0"/></defs>
+    <text font-family="DejaVu Serif, serif" font-size="34" letter-spacing="8" fill="#1E1E1E"><textPath href="#arcT" startOffset="50%" text-anchor="middle">PEAKBUILDS</textPath></text>
+    <text font-family="Inter, sans-serif" font-size="20" letter-spacing="6" fill="#1E1E1E"><textPath href="#arcB" startOffset="50%" text-anchor="middle">NACHHALTIG · AUSTRIA</textPath></text>
+    <g fill="none" stroke="#1E1E1E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 -5) scale(0.52)">
+      <path d="M-170 90 L-60 -70 L-20 -14"/>
+      <path d="M10 -40 L60 -120 L170 90"/>
+      <path d="M-80 90 L-80 10 L-10 -52 L60 10 L60 90"/>
+      <path d="M-30 90 L-30 46 L10 46 L10 90"/>
+      <path d="M30 22 C 30 0, 48 -10, 56 -10 C 56 10, 46 22, 30 22 Z"/>
+      <path d="M-190 90 L190 90"/>
+    </g>
+    <circle cx="-150" cy="0" r="5" fill="#1E1E1E"/><circle cx="150" cy="0" r="5" fill="#1E1E1E"/>
+  </g>
+
+  <!-- C: Monogramm -->
+  <g transform="translate(300 900)">
+    <rect x="-130" y="-150" width="260" height="260" rx="30" fill="#1E1E1E"/>
+    <g fill="none" stroke="#F4EFE6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Dach = Bergspitze -->
+      <path d="M-80 -40 L0 -110 L80 -40"/>
+      <!-- p -->
+      <path d="M-55 70 L-55 -20"/>
+      <path d="M-55 -20 C -10 -24, -10 30, -55 26"/>
+      <!-- B -->
+      <path d="M15 -20 L15 60"/>
+      <path d="M15 -20 C 60 -22, 60 18, 15 18 C 68 16, 68 62, 15 60"/>
+    </g>
+    <path d="M62 -86 C 62 -104, 78 -112, 86 -112 C 86 -94, 76 -86, 62 -86 Z" fill="#F4EFE6"/>
+    <text x="0" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="30" font-weight="500" letter-spacing="10" fill="#1E1E1E">PEAKBUILDS</text>
+  </g>
+
+  <!-- D: Blaupause -->
+  <g transform="translate(900 900)">
+    <rect x="-230" y="-170" width="460" height="300" fill="#1F3A5F"/>
+    <g stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1">
+      <path d="M-230 -130 H230 M-230 -90 H230 M-230 -50 H230 M-230 -10 H230 M-230 30 H230 M-230 70 H230 M-230 110 H230"/>
+      <path d="M-190 -170 V130 M-150 -170 V130 M-110 -170 V130 M-70 -170 V130 M-30 -170 V130 M10 -170 V130 M50 -170 V130 M90 -170 V130 M130 -170 V130 M170 -170 V130 M210 -170 V130"/>
+    </g>
+    <g fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" transform="translate(0 -10) scale(0.8)">
+      <path d="M-170 90 L-60 -70 L-20 -14"/>
+      <path d="M10 -40 L60 -120 L170 90"/>
+      <path d="M-80 90 L-80 10 L-10 -52 L60 10 L60 90"/>
+      <path d="M-30 90 L-30 46 L10 46 L10 90"/>
+      <path d="M30 22 C 30 0, 48 -10, 56 -10 C 56 10, 46 22, 30 22 Z"/>
+      <path d="M-200 90 L200 90"/>
+      <!-- Bemaßung -->
+      <path d="M-80 120 L60 120 M-80 112 L-80 128 M60 112 L60 128" stroke-width="1.5"/>
+      <path d="M-10 -52 L-10 -100" stroke-width="1.5" stroke-dasharray="4 5"/>
+    </g>
+    <text x="-8" y="112" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#FFFFFF" fill-opacity="0.8">8.40 m</text>
+    <text x="0" y="200" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="34" fill="#1E1E1E" letter-spacing="4">peakBuilds_</text>
+  </g>
+</svg>
